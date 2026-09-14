@@ -1,0 +1,319 @@
+{
+  "profile": {
+    "name": "Akmal Aufa Alim",
+    "email": "akmalalim28@gmail.com",
+    "phone": "+6282122388708",
+    "location": "South Tangerang, Indonesia",
+    "github": "https://github.com/akmalaufa",
+    "linkedin": "https://www.linkedin.com/in/akmal-aufa-alim",
+    "summary": "I am an Informatics Engineering graduate (S.Kom) specializing in AI and Software Engineering. Proven capability in building end-to-end applications, from developing robust backends to designing AI-driven solutions like Retrieval-Augmented Generation (RAG) pipelines. Strong problem-solver focused on delivering scalable, real-world technical solutions."
+  },
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        {
+          "name": "Python",
+          "icon": "devicon-python-plain"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "devicon-typescript-original"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain"
+        },
+        {
+          "name": "SQL",
+          "icon": "devicon-azuresqldatabase-plain"
+        }
+      ]
+    },
+    {
+      "category": "AI & Machine Learning",
+      "items": [
+        {
+          "name": "RAG Architecture",
+          "icon": ""
+        },
+        {
+          "name": "LLMs (Google Gemini)",
+          "icon": "devicon-google-plain"
+        },
+        {
+          "name": "LangChain",
+          "icon": "",
+          "imgUrl": "https://cdn.simpleicons.org/langchain/white"
+        },
+        {
+          "name": "Vector Processing (SPLADE)",
+          "icon": ""
+        },
+        {
+          "name": "Scikit-Learn",
+          "icon": "devicon-scikitlearn-plain"
+        },
+        {
+          "name": "XGBoost",
+          "icon": ""
+        },
+        {
+          "name": "MediaPipe",
+          "icon": ""
+        },
+        {
+          "name": "OpenCV",
+          "icon": "devicon-opencv-plain"
+        },
+        {
+          "name": "Pandas",
+          "icon": "devicon-pandas-plain"
+        },
+        {
+          "name": "NumPy",
+          "icon": "devicon-numpy-plain"
+        }
+      ]
+    },
+    {
+      "category": "Backend & API",
+      "items": [
+        {
+          "name": "FastAPI",
+          "icon": "devicon-fastapi-plain"
+        },
+        {
+          "name": "Pydantic",
+          "icon": "",
+          "imgUrl": "https://cdn.simpleicons.org/pydantic"
+        },
+        {
+          "name": "Streamlit",
+          "icon": "",
+          "imgUrl": "https://cdn.simpleicons.org/streamlit"
+        },
+        {
+          "name": "SQLModel",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "category": "Databases",
+      "items": [
+        {
+          "name": "PostgreSQL (Supabase)",
+          "icon": "devicon-postgresql-plain"
+        },
+        {
+          "name": "MySQL",
+          "icon": "devicon-mysql-original"
+        },
+        {
+          "name": "Vector DB (Pinecone)",
+          "icon": "",
+          "imgUrl": ""
+        },
+        {
+          "name": "Redis",
+          "icon": "devicon-redis-plain"
+        }
+      ]
+    },
+    {
+      "category": "Frontend & UI",
+      "items": [
+        {
+          "name": "Next.js",
+          "icon": "devicon-nextjs-plain"
+        },
+        {
+          "name": "React.js",
+          "icon": "devicon-react-original"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "devicon-tailwindcss-original"
+        }
+      ]
+    },
+    {
+      "category": "Tools & Infrastructure",
+      "items": [
+        {
+          "name": "Docker",
+          "icon": "devicon-docker-plain"
+        },
+        {
+          "name": "Docker Compose",
+          "icon": ""
+        },
+        {
+          "name": "Git",
+          "icon": "devicon-git-plain"
+        },
+        {
+          "name": "GitHub Actions (CI/CD)",
+          "icon": "devicon-github-original"
+        },
+        {
+          "name": "Web Scraping",
+          "icon": ""
+        },
+        {
+          "name": "Playwright",
+          "icon": "",
+          "imgUrl": ""
+        },
+        {
+          "name": "BeautifulSoup",
+          "icon": ""
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "haloiti-rag-agent",
+      "title": "HaloITI",
+      "subtitle": "Autonomous Hybrid RAG Agent (B.Sc. Thesis R&D)",
+      "liveUrl": "https://haloiti.akmalaufa.my.id/",
+      "repoUrl": "https://github.com/akmalaufa/HaloITI",
+      "techStack": [
+        "Python",
+        "FastAPI",
+        "Gemini",
+        "Pinecone",
+        "PostgreSQL",
+        "Redis",
+        "Next.js",
+        "Docker",
+        "Linux VPS"
+      ],
+      "highlights": [
+        "Spearheaded a B.Sc. Thesis R&D to modernize the university admissions system, designing and proposing a production-ready AI infrastructure for institutional deployment.",
+        "Engineered a zero-bloatware Autonomous RAG Agent in Pure Python (bypassing LangChain) with a Pydantic-based 4-Pillars Tooling ecosystem, enabling dynamic intent routing across Slot-Filling, Guardrails, Hybrid Vector Search, and native Text-to-SQL.",
+        "Slashed LLM latency and API costs by architecting a Double-Layer Global Cache combining a Pinecone Semantic Cache with dual-vector injection and a deterministic Tool-Level Redis Cache, secured by strict poison-prevention validation.",
+        "Containerized the entire architecture via Docker and deployed on a self-managed VPS, building a resilient infrastructure with a regex-driven Redis Circuit Breaker to intercept HTTP-429 rate limits and ensure 100% frontend uptime.",
+        "Eradicated context-window overflow and reduced token costs by >70% via a Redis-backed Sliding Window Memory algorithm, while asynchronously logging 100% of unbounded raw chat lineages into PostgreSQL for offline data audits."
+      ]
+    },
+    {
+      "id": "student-early-warning-system",
+      "title": "Student Early Warning System",
+      "subtitle": "Predictive ML Pipeline",
+      "liveUrl": "https://prediksi-kelulusan.akmalaufa.my.id/",
+      "repoUrl": "https://github.com/akmalaufa/prediksi-kelulusan-mahasiswa",
+      "techStack": [
+        "Python",
+        "XGBoost",
+        "Scikit-Learn",
+        "Pandas",
+        "Streamlit"
+      ],
+      "highlights": [
+        "Architected a multi-scenario Machine Learning pipeline to classify university dropout risks across 7 academic semesters, achieving up to 81.3% peak accuracy and 75.0% recall using XGBoost and Random Forest.",
+        "Engineered an automated data pipeline to process 3,000+ raw records and extract 7 time-series predictive indicators, optimizing an 80:20 imbalanced dataset via strategic threshold calibration (0.42).",
+        "Deployed the inference engine as an interactive web application using Streamlit, enabling dynamic state management and sub-second evaluation across 7 dynamically loaded models (.pkl)."
+      ]
+    },
+    {
+      "id": "posebrina-posture-detection",
+      "title": "Posebrina",
+      "subtitle": "Real-Time Posture Detection System",
+      "repoUrl": "https://github.com/akmalaufa/posture-detection",
+      "techStack": [
+        "Python",
+        "MediaPipe",
+        "OpenCV",
+        "Scikit-Learn",
+        "WebRTC"
+      ],
+      "highlights": [
+        "Engineered a real-time posture detection application achieving 87% accuracy by integrating MediaPipe (BlazePose) for spatial feature extraction with a lightweight MLP Classifier.",
+        "Curated a custom dataset of 1,300+ structural pose keypoints and deployed the model to provide continuous, automated posture monitoring with a 30-minute warning threshold.",
+        "Implemented asynchronous, low-latency video streaming using Streamlit-WebRTC, enabling seamless client-to-server AI inference without heavy GPU dependencies."
+      ],
+      "liveUrl": "https://posture-detection-akmalaufa-posebrina.streamlit.app/"
+    }
+  ],
+  "experience": [
+    {
+      "id": "kampus-gratis-internship",
+      "role": "Internship AI & Data Science",
+      "company": "Kampus Gratis, PT Menara Indonesia",
+      "startDate": "February 2025",
+      "endDate": "July 2025",
+      "highlights": [
+        "Engineered an NLP-driven AI Virtual Assistant using FastAPI and LangChain, integrating GPT-4o with regex pattern matching and ML fallbacks to achieve >95% intent detection accuracy.",
+        "Architected a dual-frontend ecosystem (Native Web & Streamlit) backed by SQLite and SQLModel, developing 16 REST API endpoints with <500ms latency and validating the pipeline against 50+ edge-case scenarios.",
+        "Developed a predictive AI Credit Scoring feature utilizing an XGBoost Classifier to evaluate user risk profiles, performing feature engineering on tabular data to optimize decision-making parameters."
+      ],
+      "technologies": [
+        "FastAPI",
+        "LangChain",
+        "XGBoost",
+        "SQLite",
+        "SQLModel",
+        "Streamlit"
+      ]
+    },
+    {
+      "id": "revou-msib",
+      "role": "Data Analytics & Gen-AI Trainee (MSIB)",
+      "company": "RevoU Tech Academy",
+      "startDate": "September 2024",
+      "endDate": "December 2024",
+      "highlights": [
+        "Processed and cleansed 3,130 rows of US Regional Sales dataset to identify profitability anomalies and operational inefficiencies.",
+        "Architected interactive Power BI dashboards tracking critical metrics including Total Profit, Trendlines, and Quantity Sales by Channel.",
+        "Extracted strategic insights highlighting distribution disparities (In-Store generating $1.88M vs Wholesale $0.58M) and formulated data-driven recommendations for seasonal demand optimization."
+      ],
+      "technologies": [
+        "Power BI",
+        "Google Sheets",
+        "Data Analytics",
+        "Data Visualization"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "iti-bachelor",
+      "institution": "Institut Teknologi Indonesia",
+      "degree": "Bachelor of Computer Science (S.Kom)",
+      "startDate": "September, 2022",
+      "endDate": "August 2026",
+      "details": [
+        "GPA: 3.51/4.00 (Cumlaude)",
+        "Thesis: Implementation of Agentic Hybrid Retrieval-Augmented Generation (RAG) on LLM-Based University Admissions Chatbot."
+      ]
+    },
+    {
+      "id": "revou-tech-academy",
+      "institution": "RevoU Tech Academy",
+      "degree": "Data Analytics & Generative AI Program",
+      "startDate": "September, 2024",
+      "endDate": "December, 2024",
+      "details": [
+        "Score: 80 (A)",
+        "Studi Independen Bersertifikat (MSIB) Batch 7"
+      ]
+    }
+  ],
+  "organization": [
+    {
+      "id": "hmif-iti-hrd",
+      "role": "Human Resource Development",
+      "organization": "Himpunan Mahasiswa Teknik Informatika (HMIF) ITI",
+      "startDate": "March, 2024",
+      "endDate": "March, 2026",
+      "highlights": [
+        "Spearheaded a 3-month comprehensive cadreization program for the 2026/2027 board candidates, architecting an end-to-end curriculum focused on organizational leadership and technical upskilling.",
+        "Directed technical training initiatives by organizing MERN (MongoDB, Express, React, Node.js) stack workshops, accelerating the software engineering competencies of incoming candidates.",
+        "Managed the evaluation and onboarding pipeline for new members, ensuring a structured transition into the core organizational hierarchy."
+      ]
+    }
+  ]
+}
