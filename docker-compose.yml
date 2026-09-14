@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  web:
+    # 1. Saat di Laptop (Local): Docker Compose bakal ngebaca 'build: .' lalu ngebuild image dari source code
+    #    dan otomatis memberikan nama image 'akmalaufa/portfolio-akmal:latest'.
+    # 2. Saat di VPS: Docker Compose (via command `pull`) bakal nyari image 'akmalaufa/portfolio-akmal:latest'
+    #    di DockerHub dan ngabaikan instruksi 'build' karena nggak ada source code.
+    image: akmalaufa/portfolio-akmal:latest
+    build: .
+    container_name: portfolio-web
+    ports:
+      - "3001:3000"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
