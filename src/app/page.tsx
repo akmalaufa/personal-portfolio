@@ -15,14 +15,14 @@ export default function Home() {
         <About />
         
         {/* VISUAL SEPARATOR (About -> Skills) */}
-        <div className="w-full h-[250px] md:h-[200px] -my-28 md:-my-32 relative z-0 pointer-events-none">
+        <div className="w-full h-[200px] md:h-[200px] -my-16 md:-my-32 relative z-0 pointer-events-none">
           <DotMatrix />
         </div>
 
         <Skills />
         
         {/* VISUAL SEPARATOR (Skills -> Experience) */}
-        <div className="w-full h-[250px] md:h-[200px] -my-28 md:-my-32 relative z-0 pointer-events-none">
+        <div className="w-full h-[200px] md:h-[200px] -my-16 md:-my-32 relative z-0 pointer-events-none">
           <DotMatrix />
         </div>
 
