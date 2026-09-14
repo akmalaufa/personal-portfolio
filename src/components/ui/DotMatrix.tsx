@@ -26,11 +26,28 @@ export default function DotMatrix() {
 
     const handleMouseMove = (e: MouseEvent) => {
       const rect = canvas.getBoundingClientRect();
-      // Hitung posisi mouse relatif terhadap posisi komponen canvas di layar
       targetX = e.clientX - rect.left;
       targetY = e.clientY - rect.top;
     };
     window.addEventListener("mousemove", handleMouseMove);
+
+    // Tambahan untuk Mobile (Touch Events)
+    const handleTouchMove = (e: TouchEvent) => {
+      if (e.touches.length > 0) {
+        const rect = canvas.getBoundingClientRect();
+        targetX = e.touches[0].clientX - rect.left;
+        targetY = e.touches[0].clientY - rect.top;
+      }
+    };
+    const handleTouchStart = (e: TouchEvent) => {
+      if (e.touches.length > 0) {
+        const rect = canvas.getBoundingClientRect();
+        targetX = e.touches[0].clientX - rect.left;
+        targetY = e.touches[0].clientY - rect.top;
+      }
+    };
+    window.addEventListener("touchmove", handleTouchMove, { passive: true });
+    window.addEventListener("touchstart", handleTouchStart, { passive: true });
 
     const handleResize = () => {
       width = container.clientWidth;
@@ -95,6 +112,8 @@ export default function DotMatrix() {
 
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener("touchmove", handleTouchMove);
+      window.removeEventListener("touchstart", handleTouchStart);
       window.removeEventListener("resize", handleResize);
       cancelAnimationFrame(animId);
     };
