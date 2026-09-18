@@ -28,7 +28,7 @@ export default function Footer() {
         {/* BRUTALIST TYPOGRAPHY (Tengah Layar - Simetris Sempurna) */}
         {/* mt dihapus agar posisi teks berada di titik tengah (dead center) antara top bar dan bottom bar */}
         <div className="absolute inset-0 flex flex-col items-center justify-center z-10 select-none pointer-events-none">
-          <h2 className="text-[26vw] md:text-[20vw] font-[family-name:var(--font-space-grotesk)] font-bold leading-none tracking-tighter text-neutral-800/40 py-4">
+          <h2 className="text-[26vw] md:text-[20vw] font-[family-name:var(--font-space-grotesk)] font-bold leading-none tracking-tighter text-neutral-700/60 py-4">
             AKMAL
           </h2>
         </div>
